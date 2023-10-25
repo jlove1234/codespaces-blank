@@ -1,0 +1,11 @@
+{
+    "name": "R Codespace",
+    "dockerComposeFile": "docker-compose.yml",
+    "extensions": ["ikuyadeu.r", "rstudio.vscode-r"],
+    "settings": {
+      "R.rterm.windows": "C:\\rtools40\\usr\\bin\\bash.exe",
+      "R.rterm.linux": "/usr/bin/bash"
+    },
+    "workspaceMount": "source=/home/codespace,target=/workspace,type=bind,consistency=delegated"
+  }
+  
